@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <TITLE>หน้ากระทู้</TITLE>
+  </head>
+ <body>
+    <header>
+        <h1>BrTalks</h1>
+        <nav>
+            <ul>
+                <li><a href = "#study">ปรึกษาด้านการเรียน</a></li>
+                    <li><a href = "#general">พูดคุยทั่วไป</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<section class="post">
+  <h2>โพสต์</h2>
+  <form action="/submit_post" method="post">
+    <label for="title">หัวข้อ</label>
+    <input type="text" id="title" name="title" required>
+    <label for="content">เนื้อหา</label>
+    <textarea id="content" name="content" required></textarea>
+    <button type="submit">ส่งโพสต์</button>
+    </form>
+    </section>
+
+
+<section class="comment">
+   <h2>แสดงความคิดเห็น</h2>
+   <form action="submit_comment" method="post">
+    <label for="comment">ความคิดเห็น</label>
+    <textarea id="comment" name="comment" required></textarea>
+    <button type="submit">ส่งความคิดเห็น</button>
+   </form>
+</section>
+</body>
+</html>
+
+<style>
+    
+</style>
